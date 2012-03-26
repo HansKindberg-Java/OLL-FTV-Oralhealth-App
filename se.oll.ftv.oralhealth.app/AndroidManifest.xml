@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="se.oll.ftv.oralhealth.app"
+	android:versionCode="1"
+	android:versionName="1.0-SNAPSHOT"
+	>
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name"
+		android:name="se.oll.ftv.oralhealth.app.Application"
+		>
+		<activity android:name="Home">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity android:name="Authenticate"/>
+		<activity android:name="Journals"/>
+	</application>
+</manifest>

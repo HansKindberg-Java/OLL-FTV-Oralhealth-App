@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Journaler"
+		/>
+	<TextView
+		android:id="@+id/informationTextView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+	<Button
+		android:id="@+id/close_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Stäng"
+		android:onClick="close"
+		/>
+</LinearLayout>
